@@ -11,7 +11,7 @@ var expressSanitizer = require("express-sanitizer");
  
 //***********
 
-mongoose.connect(process.env.DATABASECLOUD, { useNewUrlParser: true });
+mongoose.connect(process.env.CLOUDDATABASE, { useNewUrlParser: true });
 
 //***********
 
