@@ -1,0 +1,55 @@
+<% include partials/header %>
+
+<link rel="stylesheet" href="/stylesheets/two.css">
+
+<nav class="navbar navbar-expand-xl navbar-dark" style="background-color: #0f9b4c;">
+        <a class="navbar-brand" href="#"><i class="fab fa-stack-overflow"></i> Harmonic Software Stack</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#collapsingNavbarLg">
+        <span class="navbar-toggler-icon"></span>
+        
+    </button>
+    <div class="navbar-collapse collapse" id="collapsingNavbarLg">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item px-3">
+                <a class="nav-link" href="/content/new">Add content <i class="fas fa-plus-square"></i></a>            
+            </li>
+            <li class="nav-item px-3">
+                <a class="nav-link" href="/explore">Explore <i class="fas fa-search"></i></a>
+            </li>
+            <li class="nav-item px-3">
+                <a class="nav-link" href="/logout">Log out <i class="fas fa-sign-out-alt"></i></a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="alert alert-warning alert-dismissible fade show" role="alert">
+  <strong>Tervetuloa!</strong> This website is resposive and mobile friendly.
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+  <h3>Articles <i class="fas fa-align-left"></i></h3>
+  
+ <div class="container-1"> 
+  <% contents.reverse().forEach(function(cont){ %>
+          
+          <div class="box-1">
+          <p><%= cont.title %></p>
+          <p><%= cont.content%></p>
+          </div> 
+          <p style="align: center;">_____________________________________________________</p>
+  <% }); %>
+  
+  
+  
+  </div>
+  
+  
+  
+  
+  
+  <!-- a9-->
+  
+<% include partials/footer %>
+
