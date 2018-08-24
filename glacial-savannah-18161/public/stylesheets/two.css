@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
 @import url('https://fonts.googleapis.com/css?family=Roboto:100');
-.container {
+/*.container {
 	width: 80%;
 	margin: 0 auto;
 	padding-bottom: 3%;
 	color:green;
-}
+} */
 
 body {
 	margin: 0;
@@ -14,7 +14,7 @@ body {
 	font-weight: 800;
 }
 
-
+/*
 hearder{
   color:blue;
 }
@@ -23,9 +23,9 @@ header::after {
   content: '';
   display: table;
   clear: both;
-}
+} */
 
-.logo {
+/*.logo {
   float: left;
   padding: 10px 0;
   color: grey;
@@ -38,8 +38,8 @@ header::after {
   padding: 5px 5px 5px 5px; 
   margin-bottom: 10px;
   margin-top: 10px;
-}
-
+} */
+/*
 nav {
   float: right;
   color:blue;
@@ -85,7 +85,7 @@ nav a::before {
 
 nav a:hover::before {
   width: 100%;
-}
+} */
 
 #add{
 
@@ -99,16 +99,16 @@ h1{
   text-align: center;
   padding-top: 3%;
   padding-bottom: 0;
-  font-family: 'Poiret One', cursive;
-  font-weight: bold;
-  color: grey;
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  color: black;
 }
 
 p{
   color:black;
-  text-align: justify;
+  text-align: justify; 
   font-family: 'Roboto', sans-serif;
-  
+  white-space: pre-wrap;
 }
 
 .container-1{
@@ -119,17 +119,19 @@ p{
 	align-items:center;
 		margin-left: auto;
 	margin-right: auto;
+	text-align:justify;
 }
 
 .box-1{
 	padding: 5px;
 	justify-content:center;
+	text-align: justify;
 }
 
 
 h3{
   font-family: 'Poiret One', cursive;
-  font-weight: bold;
+  font-weight: normal;
   text-align: center;
   color: green;
   letter-spacing: .3rem;

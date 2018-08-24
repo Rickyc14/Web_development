@@ -96,23 +96,24 @@ app.get("/explore", isLoggedIn,function(req, res){ // first after root route
    res.render("explore");
 });
 //*********************************************** REGISTER PAGE IS KEPT OUT
-app.get("/register", function(req, res){
-   res.render("register"); 
-});
+//***********************************************
+//app.get("/register", function(req, res){
+//   res.render("register"); 
+//});
 
-app.post("/register", function(req, res){
-var newUser = new User({username:req.body.username});
+//app.post("/register", function(req, res){
+//var newUser = new User({username:req.body.username});
     
-   User.register(newUser, req.body.password, function(err, user){
-       if(err){
-            console.log(err);
-          return res.render("register")       }else{
-           passport.authenticate("local")(req, res, function(){
-               res.redirect("/content");
-          });
-      }
-   });
-});
+ //  User.register(newUser, req.body.password, function(err, user){
+ //      if(err){
+ //           console.log(err);
+ //         return res.render("register")       }else{
+ //          passport.authenticate("local")(req, res, function(){
+  //             res.redirect("/content");
+  //        });
+//      }
+ //  });
+//});
 
 //LOGOUT**
 app.get("/logout", function(req, res){

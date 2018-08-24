@@ -10,8 +10,9 @@ var expressSanitizer = require("express-sanitizer");
 
  
 //***********
-//mongoose.connect(process.env.DATABASEURL, { useNewUrlParser: true });
-mongoose.connect('mongodb://localhost:27017/harmonic');
+
+mongoose.connect(process.env.CLOUDDATABASE, { useNewUrlParser: true });
+
 //***********
 
 app.use(bodyParser.urlencoded({extended: true}));
@@ -98,17 +99,17 @@ app.get("/explore", isLoggedIn,function(req, res){ // first after root route
 //app.get("/register", function(req, res){
 //   res.render("register"); 
 //});
-//
+
 //app.post("/register", function(req, res){
 //var newUser = new User({username:req.body.username});
-//    
-//   User.register(newUser, req.body.password, function(err, user){
+    
+ //  User.register(newUser, req.body.password, function(err, user){
 //       if(err){
 //            console.log(err);
 //          return res.render("register")       }else{
-//           passport.authenticate("local")(req, res, function(){
-//               res.redirect("/content");
-//          });
+ //          passport.authenticate("local")(req, res, function(){
+ //              res.redirect("/content");
+ //         });
 //      }
 //   });
 //});
