@@ -13,7 +13,7 @@ Some of the critical tools used in it:
 - Bootstrap: front-end framework
 
 Despite its simplicity, it handles most of the expected functionality of a website, such as GET and POST requests. 
-It also makes use of a Node.js middleware called Passport. It limits users to make requests without being logged on. The <em>register page</em>
+It also makes use of a Node.js middleware called Passport. It limits users from making requests without being logged on. The <em>register page</em>
 has been taken down, but outside users can use the following login/password:<br>
 ```
 login: demousername
