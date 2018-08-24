@@ -21,9 +21,9 @@ password: demokey
 ```
 <br>
 Once users are logged on they can post articles on the site and read pre-existing placeholder articles. <br>
-```
+
 [Link to website](https://glacial-savannah-18161.herokuapp.com/)
-```
+
 
 It's being hosted on Heroku's cloud plataform. Their free-hosting services are good, but it comes with some limitations.
 If the application being hosted doesn't get any traffic within an hour it goes to "sleep" and this causes some expected delays, but 
