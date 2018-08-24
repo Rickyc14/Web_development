@@ -20,11 +20,11 @@ login: demousername
 password: demokey
 ```
 <br>
-Once users are logged on they can post articles on the site and read pre-existing placeholder articles. <br>
+Once users are logged on they can post articles on the site and read pre-existing placeholder articles. <br><br>
 
-[Link to website](https://glacial-savannah-18161.herokuapp.com/)
+* [Link to website](https://glacial-savannah-18161.herokuapp.com/)
 
-
+<br>
 It's currently being hosted on Heroku's cloud plataform. Their free-hosting services are good, but it comes with some limitations.
 If the application being hosted doesn't get any traffic within an hour it goes to "sleep" and this causes some expected delays, but 
 everything will work correctly.
