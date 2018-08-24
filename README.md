@@ -20,7 +20,7 @@ login: demousername
 password: demokey
 ```
 <br>
-Once users are logged on, they can post articles on the site and read pre-existing placeholder articles. <br><br>
+Once users are logged on they can post articles on the site and read pre-existing placeholder articles. <br><br>
 
 * [Link to website](https://glacial-savannah-18161.herokuapp.com/)
 
